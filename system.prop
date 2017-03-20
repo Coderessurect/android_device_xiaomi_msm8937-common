@@ -89,9 +89,6 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 sys.vendor.shutdown.waittime=500
 ro.build.shutdown_timeout=0
 
-# SdcardFs
-ro.sys.sdcardfs=true
-
 # Media
 media.msm8956hw=0
 mm.enable.smoothstreaming=true
