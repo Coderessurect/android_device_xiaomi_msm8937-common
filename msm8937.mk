@@ -226,7 +226,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
 
-# Init scripts ramdisk
+# Init scripts
 PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.recovery.qcom.rc \
@@ -234,9 +234,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.usb.rc \
     ueventd.qcom.rc \
-    init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
-    init.qcom.usb.sh \
     init.qcom.sh \
     init.target.rc \
     fstab.qcom
